@@ -151,6 +151,6 @@ function largeTransactions(transactions, minAmount) {
 // lowest amount.
 
 function sortTransactions(transactions){
-  return transactions.sort((a,b) => b.score - a.score);
+  return transactions.sort((a,b) => b.transactions - a.transactions);
 }
 
