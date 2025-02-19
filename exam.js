@@ -150,5 +150,7 @@ function largeTransactions(transactions, minAmount) {
 // sub C.a function sortTransactions(transactions) that sorts transactions from highest to
 // lowest amount.
 
-functio
+function sortTransactions(transactions){
+  return transactions.sort((a,b) => b.score - a.score);
+}
 
